@@ -1,6 +1,6 @@
 # Gradient Descent for Linear Regression
 
-This project implements **Gradient Descent** to find the optimal parameters for **Linear Regression**. Linear regression is a statistical method used to model the relationship between a dependent variable $$( y \)$$ and one or more independent variables $$( X \)$$.
+This project implements **Gradient Descent** (**"Batch Gradient Descent"** to be specific) to find the optimal parameters for **Linear Regression**. Linear regression is a statistical method used to model the relationship between a dependent variable $$( y \)$$ and one or more independent variables $$( X \)$$.
 
 ## What is Gradient Descent?
 
