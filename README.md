@@ -44,6 +44,8 @@ Where:
 - $$( \alpha \)$$ is the learning rate, controlling the step size.
 - $$( \frac{\partial}{\partial \theta_j} J(\theta) \)$$ is the derivative (gradient) of the cost function with respect to $$( \theta_j \)$$.
 
+We update the variable $$\theta_j$$ in such a manner because, if the slope, i.e $$\frac{\partial}{\partial \theta_j} J(\theta)$$ is positive, the direction of steepest descent is to the left. To move to the left, we reduce $$\theta_j$$. Hence the subtraction. In contrast, if $$\frac{\partial}{\partial \theta_j} J(\theta)$$ is negative, the direction of steepest descent is to the right. In order to move to the right, we need to add to $$\theta_j$$. This is taken care of by the same formula because the negative sign of the $$\frac{\partial}{\partial \theta_j} J(\theta)$$ and the negative sign before $$\alpha$$ multiply to give a positive sign. 
+
 ### Steps to Apply Gradient Descent:
 1. Initialize $$( \theta_0 \)$$ and $$( \theta_1 \)$$ randomly or with zeros.
 2. Compute the gradient of the cost function with respect to each parameter.
