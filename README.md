@@ -2,6 +2,8 @@
 
 This project implements **Gradient Descent** (**"Batch Gradient Descent"** to be specific) to find the optimal parameters for **Linear Regression**. Linear regression is a statistical method used to model the relationship between a dependent variable $$( y \)$$ and one or more independent variables $$( X \)$$.
 
+This project is a simpler implementation of Gradient Descent for Linear Regression presented in [DeepLearning.AI's Machine Learning Specialization](https://www.coursera.org/learn/machine-learning?specialization=machine-learning-introduction). 
+
 ## What is Gradient Descent?
 
 Gradient Descent is an optimization algorithm used to minimize a cost function by iteratively moving towards the direction of the steepest descent. In the context of linear regression, the cost function we aim to minimize is the **Mean Squared Error (MSE)** between the predicted values and the actual values.
